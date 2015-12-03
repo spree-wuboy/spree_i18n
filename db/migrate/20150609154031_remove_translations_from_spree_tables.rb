@@ -1,7 +1,7 @@
 class RemoveTranslationsFromSpreeTables < ActiveRecord::Migration
   def up
     # Don't migrate if we still use Globalize, i.e. through spree_globalize Gem
-    return if defined?(Globalize)
+    return if defined?(SpreeGlobalize)
 
     %w(
       OptionType
