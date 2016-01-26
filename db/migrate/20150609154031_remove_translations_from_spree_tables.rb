@@ -19,7 +19,7 @@ class RemoveTranslationsFromSpreeTables < ActiveRecord::Migration
   end
 
   def down
-    return if defined?(Globalize)
+    return if defined?(SpreeGlobalize)
     raise ActiveRecord::IrreversibleMigration
   end
 

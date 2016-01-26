@@ -24,10 +24,10 @@ Gem::Specification.new do |s|
   s.has_rdoc = false
 
   s.add_runtime_dependency 'i18n_data', '~> 0.7.0'
-  s.add_runtime_dependency 'rails-i18n', '~> 4.0.1'
+  s.add_runtime_dependency 'rails-i18n'
   s.add_runtime_dependency 'kaminari-i18n', '~> 0.3.2'
   s.add_runtime_dependency 'routing-filter', '~> 0.5.0'
-  s.add_runtime_dependency 'spree_core', '~> 3.1.0.beta'
+  s.add_runtime_dependency 'spree_core'
 
   s.add_development_dependency 'byebug'
   s.add_development_dependency 'capybara', '~> 2.4.4'
